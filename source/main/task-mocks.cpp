@@ -4,7 +4,7 @@
 
 extern void vTaskDelay(const TickType_t xTicksToDelay)
 {
-
+	MOCK_CALL(xTicksToDelay);
 }
 
 
