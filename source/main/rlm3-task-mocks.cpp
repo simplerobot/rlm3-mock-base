@@ -34,6 +34,11 @@ extern void RLM3_Give(RLM3_Task task)
 	MOCK_CALL(task);
 }
 
+extern void RLM3_GiveFromISR(RLM3_Task task)
+{
+	MOCK_CALL(task);
+}
+
 extern void RLM3_Take()
 {
 	MOCK_CALL();
